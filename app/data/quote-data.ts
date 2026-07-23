@@ -27,3 +27,14 @@ export const categories = [
   { name: "Binding Wire", detail: "Super Shakti", tag: "Per coil" },
   { name: "Cover Blocks", detail: "Mannat & Modi", tag: "Site ready" },
 ];
+
+export const products = [
+  { id: "tata-16", category: "TMT Bars", name: "TATA Tiscon 550SD", spec: "16 mm | 12 m bar", price: 68.5, unit: "kg", stock: "In stock", badge: "Premium", tone: "gold" },
+  { id: "jindal-16", category: "TMT Bars", name: "Jindal Panther Fe 550D", spec: "16 mm | 12 m bar", price: 66.9, unit: "kg", stock: "In stock", badge: "Premium", tone: "red" },
+  { id: "rathi-12", category: "TMT Bars", name: "Rathi Shaktiman 550D", spec: "12 mm | 12 m bar", price: 64.75, unit: "kg", stock: "In stock", badge: "Recommended", tone: "orange" },
+  { id: "ambuja-53", category: "Cement", name: "Ambuja PPC Cement", spec: "50 kg bag", price: 410, unit: "bag", stock: "In stock", badge: "Site favourite", tone: "green" },
+  { id: "ultratech-53", category: "Cement", name: "UltraTech OPC 53", spec: "50 kg bag", price: 430, unit: "bag", stock: "Low stock", badge: "High strength", tone: "gray" },
+  { id: "wire-20", category: "Binding Wire", name: "Super Shakti Binding Wire", spec: "20 kg coil", price: 1420, unit: "coil", stock: "In stock", badge: "Contractor rate", tone: "steel" },
+  { id: "mannat-25", category: "Cover Blocks", name: "Mannat Cover Blocks", spec: "25 mm | pack of 100", price: 340, unit: "pack", stock: "In stock", badge: "Site ready", tone: "sand" },
+  { id: "modi-40", category: "Cover Blocks", name: "Modi Cover Blocks", spec: "40 mm | pack of 100", price: 390, unit: "pack", stock: "In stock", badge: "Site ready", tone: "sand" },
+];

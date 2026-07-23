@@ -38,7 +38,7 @@ export default function Home() {
     <main>
       <header className="nav shell">
         <a className="brand" href="#top" aria-label="Shiv Shakti Steel home"><span className="brand-mark">SS</span><span>SHIV SHAKTI<small>STEEL</small></span></a>
-        <nav aria-label="Primary navigation"><a href="#products">Products</a><a href="#why-us">Why us</a><a href="#contact">Contact</a></nav>
+        <nav aria-label="Primary navigation"><a href="/products">Products</a><a href="#why-us">Why us</a><a href="#contact">Contact</a></nav>
         <a className="nav-cta" href="#quote">Get a quote <span>+</span></a>
       </header>
 
@@ -96,7 +96,7 @@ export default function Home() {
         <div className="delivery-box"><label htmlFor="pincode">Site pincode</label><div><input id="pincode" inputMode="numeric" maxLength={6} placeholder="Enter pincode" value={pincode} onChange={(event) => setPincode(event.target.value)} /><button type="button" onClick={checkDelivery}>Check</button></div>{notice && <p className="delivery-result">{notice}</p>}<small>Delivery slots: 8am-12pm | 12pm-4pm | 4pm-8pm</small></div>
       </section>
 
-      <section className="products shell" id="products"><div className="section-head"><div><p className="eyebrow"><span /> Material desk</p><h2>Everything that holds<br />your project together.</h2></div><a href="#contact">Explore all materials</a></div><div className="category-grid">{categories.map((category, index) => <article key={category.name} className={`category category-${index}`}><span>0{index + 1}</span><h3>{category.name}</h3><p>{category.detail}</p><b>{category.tag}</b><i aria-hidden="true" /></article>)}</div></section>
+      <section className="products shell" id="products"><div className="section-head"><div><p className="eyebrow"><span /> Material desk</p><h2>Everything that holds<br />your project together.</h2></div><a href="/products">Explore all materials</a></div><div className="category-grid">{categories.map((category, index) => <article key={category.name} className={`category category-${index}`}><span>0{index + 1}</span><h3>{category.name}</h3><p>{category.detail}</p><b>{category.tag}</b><i aria-hidden="true" /></article>)}</div></section>
 
       <section className="why" id="why-us"><div className="shell why-grid"><div><p className="eyebrow"><span /> The Shiv Shakti standard</p><h2>Built for how<br />sites actually run.</h2></div><div className="reasons"><article><b>01</b><div><h3>Rates you can act on</h3><p>Admin-published rates are visible immediately, so your team can decide without waiting for a callback.</p></div></article><article><b>02</b><div><h3>Brands side by side</h3><p>Compare quality position, stock, offer and final estimated amount in one practical view.</p></div></article><article><b>03</b><div><h3>Official, every time</h3><p>GST-inclusive pricing, compliant invoice records and a clear order trail for every purchase.</p></div></article></div></div></section>
 
